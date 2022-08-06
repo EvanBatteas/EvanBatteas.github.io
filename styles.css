@@ -2,9 +2,9 @@ body{
   margin: 0;
   padding: 0; 
   color: black;
-    background: rgb(149,254,255);
-    background: linear-gradient(90deg, rgba(149,254,255,1) 0%, rgba(255,223,153,1) 100%);   
-    background-size: cover;
+  background: linear-gradient(90deg, rgba(149,254,255,1) 0%, rgba(255,223,153,1) 100%); 
+  background-size: cover;
+    
 }
 h1 {
   color: black;
@@ -14,11 +14,20 @@ h1 {
 .box
 {
   width: 500px
-  background rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 40px;
   text-align: center;
   margin: auto;
   margin-top: 5%;
   color: white;
   font-family: 'Century Gothic',  sans-serif;
+}
+img
+{
+max-width: 100%;
+display: block;
+}
+div
+{
+padding: 5%;
 }
