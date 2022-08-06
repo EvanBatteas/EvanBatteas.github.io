@@ -1,9 +1,24 @@
+div.box
+{
+  width: 450px
+  background-color: rgb(5,5,5);
+  opacity: .6;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: black;
+  font-family: 'Century Gothic',  sans-serif;
+  border: 2px solid black;
+  font-weight: bold;
+  max-width: 75%
+}
 body{
   margin: 0;
   padding: 0; 
   color: black;
-  /*background: linear-gradient(90deg, rgba(149,254,255,1) 0%, rgba(255,223,153,1) 100%); */
-  background-image: url(background2.png) no-repeat;
+  background: rgba(255,223,153,1); 
+  /*background-image: url(background2.png) no-repeat;*/
   background-size: cover;
     
 }
@@ -12,18 +27,7 @@ h1 {
   font-family: verdana;
   font-size: 300%;
 }
-.box
-{
-  width: 450px
-  background: rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  color: white;
-  font-family: 'Century Gothic',  sans-serif;
-  
-}
+
 img
 {
 max-width: 100%;
