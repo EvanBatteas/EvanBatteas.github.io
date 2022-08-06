@@ -2,7 +2,8 @@ body{
   margin: 0;
   padding: 0; 
   color: black;
-  background: linear-gradient(90deg, rgba(149,254,255,1) 0%, rgba(255,223,153,1) 100%); 
+  /*background: linear-gradient(90deg, rgba(149,254,255,1) 0%, rgba(255,223,153,1) 100%); */
+  background-image: url(background2.png) no-repeat;
   background-size: cover;
     
 }
