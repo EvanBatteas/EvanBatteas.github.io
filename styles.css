@@ -24,18 +24,24 @@ div.topbar a.active
 }
 div.box
 {
-  width: 450px
-  background-color: #333;
-  opacity: .6;
-  padding: 40px;
+  padding: 50px;
+  opacity: 1;
+  background-color: rgb(34, 32, 32);
   text-align: center;
+  width: 20%;
   margin: auto;
   margin-top: 5%;
-  color: black;
+  color: white;
   font-family: 'Century Gothic',  sans-serif;
-  border: 2px solid black;
+  border: 3px solid black;
   font-weight: bold;
   max-width: 75%
+}
+div.box img
+{
+ border-radius: 50%;
+ max-width: 100%;
+
 }
 body{
   margin: 0;
@@ -44,6 +50,7 @@ body{
   background: rgba(255,223,153,1); 
   /*background-image: url(background2.png) no-repeat;*/
   background-size: cover;
+  text-align: center;
     
 }
 h1 {
@@ -51,13 +58,38 @@ h1 {
   font-family: verdana;
   font-size: 300%;
 }
-
 img
 {
 max-width: 100%;
+
 }
 div
 {
 padding: 5%;
+justify-content: left;
+}
+.subjectheading
+{
+font-weight: bold;
+font-size: large;
+margin-bottom: 5%;
+}
+.render
+{
+  border: 3px solid black;
+  margin: 5%;
+}
+.renders
+{
+  background-color: #333;
+  /*max-width: fit-content;*/
+  text-align: center;
+}
+h3
+{
+  font-size: x-large;
+}
+p
+{
 justify-content: left;
 }
