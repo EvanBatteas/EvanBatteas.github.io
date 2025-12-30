@@ -27,7 +27,6 @@ body {
     max-width: 38ch;
     margin: 0 auto 16px auto;
     padding: 0 8px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.35);
 }
 
 .work p {
@@ -358,6 +357,7 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
 
 
