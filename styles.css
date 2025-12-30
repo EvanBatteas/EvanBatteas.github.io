@@ -199,6 +199,36 @@ p {
     margin-bottom: 10px;
 }
 
+/* ====================
+ Publications
+=====================*/
+
+.pub-list {
+    margin-left: 1.2em;
+}
+
+.pub-list li {
+    margin-bottom: 14px;
+}
+
+.authors {
+    font-weight: 600;
+}
+
+.title {
+    font-style: italic;
+}
+
+.venue {
+    color: #4b5563;
+}
+
+.empty-note {
+    font-style: italic;
+    color: #6b7280;
+}
+
+
 /* =====================
    Renders
    ===================== */
@@ -228,5 +258,6 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
 
