@@ -52,6 +52,11 @@ body {
     background-color: #1f2933;
     background: linear-gradient(90deg,rgba(31, 41, 51, 1) 0%, rgba(36, 31, 51, 1) 25%, rgba(55, 40, 66, 1) 50%, rgba(36, 31, 51, 1) 75%, rgba(31, 41, 51, 1) 100%);
     border-bottom: 2px solid #111827;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    /*sticky*/
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .topbar a {
@@ -283,6 +288,7 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
 
 
