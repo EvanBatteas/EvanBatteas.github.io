@@ -152,6 +152,15 @@ body {
     background-color: #1f2933;
     color: #f9fafb;
     border-radius: 10px;
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.25);
+   transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.box:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 16px 40px rgba(0, 0, 0, 0.3);
 }
 
 .box img {
@@ -349,6 +358,7 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
 
 
