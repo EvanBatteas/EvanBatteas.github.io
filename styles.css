@@ -23,6 +23,13 @@ body {
     text-align: justify;
 }
 
+.box p {
+    max-width: 38ch;
+    margin: 0 auto 16px auto;
+    padding: 0 8px;
+}
+
+
 
 /* =====================
    Top navigation bar
@@ -279,6 +286,7 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
 
 
