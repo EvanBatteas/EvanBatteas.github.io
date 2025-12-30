@@ -57,6 +57,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    overflow: hidden;
 }
 
 .topbar a {
@@ -288,6 +289,7 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
 
 
