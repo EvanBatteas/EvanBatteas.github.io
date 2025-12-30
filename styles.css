@@ -36,6 +36,64 @@ body {
     padding: 0 12px;
 }
 
+/* =====================
+   Decorative siding
+   ==================== */
+.page-layout {
+    display: grid;
+    grid-template-columns: 1fr minmax(600px, 900px) 1fr;
+    gap: 2rem;
+}
+
+/* Main content stays centered */
+.content {
+    padding: 0 1rem;
+}
+
+/* Side frames */
+.side {
+    pointer-events: none;   /* purely decorative */
+}
+
+.side {
+    position: relative;
+}
+
+.side::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(200, 220, 255, 0.15);
+}
+
+.left::before {
+    right: 0;
+}
+
+.right::before {
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .page-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .side {
+        display: none;
+    }
+}
+
+/*Decoration for side*/
+.side {
+    background-image: radial-gradient(
+        rgba(255,255,255,0.05) 1px,
+        transparent 1px
+    );
+    background-size: 40px 40px;
+}
 
 
 
@@ -290,6 +348,7 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
 
 
