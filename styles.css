@@ -123,7 +123,7 @@ body {
     /*background-color: #1f2933;*/
     background-color: rgba(11,16,32,0.6);
     background: linear-gradient(90deg,rgba(31, 41, 51, 0.6) 0%, rgba(36, 31, 51, 0.6) 25%, rgba(55, 40, 66, 0.6) 50%, rgba(36, 31, 51, 0.6) 75%, rgba(31, 41, 51, 0.6) 100%);
-    border-bottom: 2px solid #111827;
+    border-bottom: 2px solid rgba(17, 24, 39, 0.65);
     box-shadow: 0 2px 6px rgba(0,0,0,0.25);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -373,6 +373,7 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
 
 
