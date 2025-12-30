@@ -7,10 +7,11 @@
 }
 
 .cv-icon {
-    height: 24px;
-    vertical-align: middle;
-    cursor: pointer;
+    height: 1em;
+    width: auto;
+    vertical-align: -0.125em;
 }
+
 
 
 .content {
@@ -164,4 +165,5 @@ p
 {
 justify-content: left;
 }
+
 
