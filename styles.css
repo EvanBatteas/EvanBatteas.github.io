@@ -9,7 +9,7 @@
 body {
     margin: 0;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    background: rgba(255, 223, 153, 1);
+    background: #f7f7f7;
     color: #111;
     text-align: center;
     line-height: 1.6;
@@ -166,3 +166,4 @@ h3 {
 p {
     margin: 0 0 16px 0;
 }
+
