@@ -124,6 +124,11 @@ body {
     color: #3b82f6;
 }
 
+.icon-list a {
+    transition: color 0.2s ease;
+}
+
+
 /* =====================
    Main content
    ===================== */
@@ -223,4 +228,5 @@ a {
 a:hover {
     color: #2563eb;
 }
+
 
